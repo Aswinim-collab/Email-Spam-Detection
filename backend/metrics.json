@@ -1,0 +1,109 @@
+{
+  "best_model": "SVM",
+  "training_emails": 30644,
+  "note": "Scores come from the held-out 20% of Enron-Spam and from the team's 40 emails, both unseen during that run. The saved model was then retrained on all data.",
+  "results": {
+    "Naive Bayes": {
+      "enron_test": {
+        "accuracy": 0.99,
+        "precision": 0.987,
+        "recall": 0.9921,
+        "f1": 0.9895,
+        "confusion_matrix": [
+          [
+            3144,
+            38
+          ],
+          [
+            23,
+            2884
+          ]
+        ]
+      },
+      "team_emails": {
+        "accuracy": 0.975,
+        "precision": 0.9524,
+        "recall": 1.0,
+        "f1": 0.9756,
+        "confusion_matrix": [
+          [
+            19,
+            1
+          ],
+          [
+            0,
+            20
+          ]
+        ]
+      }
+    },
+    "Logistic Regression": {
+      "enron_test": {
+        "accuracy": 0.9888,
+        "precision": 0.9817,
+        "recall": 0.9952,
+        "f1": 0.9884,
+        "confusion_matrix": [
+          [
+            3128,
+            54
+          ],
+          [
+            14,
+            2893
+          ]
+        ]
+      },
+      "team_emails": {
+        "accuracy": 0.95,
+        "precision": 0.95,
+        "recall": 0.95,
+        "f1": 0.95,
+        "confusion_matrix": [
+          [
+            19,
+            1
+          ],
+          [
+            1,
+            19
+          ]
+        ]
+      }
+    },
+    "SVM": {
+      "enron_test": {
+        "accuracy": 0.9911,
+        "precision": 0.9887,
+        "recall": 0.9928,
+        "f1": 0.9907,
+        "confusion_matrix": [
+          [
+            3149,
+            33
+          ],
+          [
+            21,
+            2886
+          ]
+        ]
+      },
+      "team_emails": {
+        "accuracy": 0.975,
+        "precision": 1.0,
+        "recall": 0.95,
+        "f1": 0.9744,
+        "confusion_matrix": [
+          [
+            20,
+            0
+          ],
+          [
+            1,
+            19
+          ]
+        ]
+      }
+    }
+  }
+}

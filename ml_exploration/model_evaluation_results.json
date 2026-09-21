@@ -1,0 +1,23 @@
+{
+  "Naive Bayes": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.875,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+  },
+  "Logistic Regression": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.875,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+  },
+  "SVM": {
+    "train_accuracy": 1.0,
+    "test_accuracy": 0.875,
+    "precision": 1.0,
+    "recall": 0.75,
+    "f1": 0.8571428571428571
+  }
+}

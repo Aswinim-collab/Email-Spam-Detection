@@ -1,0 +1,98 @@
+{
+  "dataset_shape": [
+    40,
+    4
+  ],
+  "class_distribution": {
+    "1": 20,
+    "0": 20
+  },
+  "avg_email_length": 55.25,
+  "avg_word_count": 9.3,
+  "spam_avg_length": 57.65,
+  "ham_avg_length": 52.85,
+  "spam_top_words": [
+    [
+      "your",
+      12
+    ],
+    [
+      "now",
+      10
+    ],
+    [
+      "a",
+      7
+    ],
+    [
+      "free",
+      7
+    ],
+    [
+      "to",
+      7
+    ],
+    [
+      "you",
+      6
+    ],
+    [
+      "click",
+      5
+    ],
+    [
+      "for",
+      5
+    ],
+    [
+      "claim",
+      4
+    ],
+    [
+      "have",
+      4
+    ]
+  ],
+  "ham_top_words": [
+    [
+      "the",
+      17
+    ],
+    [
+      "for",
+      8
+    ],
+    [
+      "your",
+      8
+    ],
+    [
+      "please",
+      5
+    ],
+    [
+      "will",
+      5
+    ],
+    [
+      "attached",
+      4
+    ],
+    [
+      "tomorrow",
+      4
+    ],
+    [
+      "meeting",
+      3
+    ],
+    [
+      "is",
+      3
+    ],
+    [
+      "am",
+      3
+    ]
+  ]
+}
